@@ -1,0 +1,57 @@
+.left-side-bar {
+    position: fixed;
+    top: 85px; /* Adjust according to the height of the navbar */
+    bottom: 0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: linear-gradient(to right, #153448, #1E0342);
+    color: #B3C8CF;
+    border-right: 1px solid #153448;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-side-bar .search-input input {
+    outline: none;
+    border: none;
+    width: 95%;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-style: italic;
+  }
+  
+  .left-side-bar .search-input {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  .left-side-bar .phone-list h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .left-side-bar .phone-list h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .left-side-bar .phone-list .phone-list-list li {
+    color: #B3C8CF;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: underline;
+  }
+  
+  .left-side-bar .phone-list .phone-list-list li:hover {
+    background: #BED7DC;
+    color: #1E0342;
+  }
+  @media (max-width:935px){
+    .left-side-bar{
+      display: none;
+    }
+  }

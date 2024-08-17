@@ -1,0 +1,91 @@
+.phones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.phones-container .image-phone img {
+    width: 100%; 
+    max-width: 350px; 
+}
+
+.phones-container .info-phone h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.phones-container .info-phone p {
+    color: white;
+}
+
+.phones-container .info-phone span {
+    color: #8576FF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.phones-container .view-phone-button button {
+    padding: 8px 16px;
+    background: #8576FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.phones-container .view-phone-button button:hover {
+    background: #888fec;
+}
+@media (max-width:1642px){
+    .phones-container .info-phone h3{
+        font-size: 16px;
+    }
+    .phones-container .info-phone p{
+        font-size: 12px;
+    }
+    .phones-container .info-phone span{
+        font-size: 14px;
+    }
+    .phones-container .view-phone-button button{
+        padding: 7px 12px;
+        margin-top: 8px;
+    }
+  }
+  @media (max-width:620px){
+    .phones-container .info-phone h3{
+        font-size: 11px;
+    }
+    .phones-container .image-phone img{
+        max-width: 250px;
+    }
+    .phones-container .info-phone p{
+        font-size: 9px;
+    }
+    .phones-container .info-phone span{
+        font-size: 12px;
+    }
+    .phones-container .view-phone-button button{
+        padding: 4px 9px;
+        margin-top: 8px;
+    }
+  }
+  @media (max-width:550px){
+    .phones-container .info-phone h3{
+        font-size: 9px;
+    }
+    .phones-container .info-phone p{
+        font-size: 8px;
+    }
+    .phones-container .info-phone span{
+        font-size: 10px;
+    }
+    .phones-container .view-phone-button button{
+        padding: 3px 7px;
+        margin-top: 8px;
+    }
+  }

@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right,#E1F7F5 50%,#FFEAE3);
+    z-index: 1000; 
+  }
+  
+  .navbar .navbar-logo img {
+    width: 250px;
+    cursor: pointer;
+  }
+  
+  .button-cart {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .cart-icon img {
+    width: 40px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .cart-icon img:hover {
+    transform: scale(1.1);
+  }
+  
+  .button button {
+    padding: 8px 28px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button button:hover {
+    background: rgb(31, 29, 29);
+  }
+  

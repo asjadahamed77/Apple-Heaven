@@ -1,0 +1,100 @@
+.phone-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 60px;
+}
+.phone-details-left img{
+    width: 400px;
+    border-radius: 24px;
+}
+.model-name h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.ram-battery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ram{
+    background: #7ea3b0;
+    padding: 6px 12px;
+    color: #E1F7F5;
+    border-radius: 3px;
+}
+
+.battery{
+    background: #7ea3b0;
+    padding: 6px 12px;
+    color: #E1F7F5;
+    border-radius: 3px;
+}
+.storage-options p{
+    color: white;
+    margin-top: 8px;
+}
+.storage-options button{
+    background: #b9d5e0;
+    padding: 6px 12px;
+    color: #6b7d7b;
+    border-radius: 3px;
+    border: none;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+.storage-options button:hover{
+    background:#9bcbde ;
+}
+.price{
+    color: #CDE8E5;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+.warranty{
+    color: white;
+}
+.colour-options p{
+    color: white;
+    margin-top: 14px;
+}
+.selected-colour{
+    color: white;
+}
+.colour-options button{
+    background: #b9d5e0;
+    padding: 6px 12px;
+    color: #6b7d7b;
+    border-radius: 3px;
+    border: none;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+.colour-options button:hover{
+    background:#9bcbde ;
+}
+.button-add-to-cart button{
+    background: #A3D8FF;
+    padding: 10px 24px;
+    color: #1E0342;
+    border-radius: 3px;
+    border: none;
+    margin: 20px 4px 0px;
+    cursor: pointer;
+}
+.button-add-to-cart button:hover{
+    background: #b3dbf8;
+}
+@media (max-width:910px){
+    .phone-details{
+        flex-direction: column;
+        
+    }
+    .ram-battery{
+        justify-content: left;
+        gap: 50px;
+    }
+}

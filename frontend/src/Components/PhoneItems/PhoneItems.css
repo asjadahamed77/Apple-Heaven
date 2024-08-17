@@ -1,0 +1,34 @@
+.phone-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 70px;
+    padding-top: 20px;
+}
+.phone-items h1{
+    color: aliceblue;
+}
+
+.iPhone-items {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(#153448,#1E0342);
+}
+@media (max-width:1200px){
+    .phone-items{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:750px){
+    .phone-items{
+        grid-template-columns: repeat(1,1fr);
+        padding: 100px;
+    }
+}
+@media (max-width:450px){
+    .phone-items{
+        grid-template-columns: repeat(1,1fr);
+        padding: 120px;
+    }
+}
